@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Realtimer.css">
+    <title>Document</title>
+</head>
+<body>
+   <div class="container">
+       <p class="time-labels" id="hour-label">Hour</p> <p class="time-labels" id="min-label">Minutes</p> <p class="time-labels" id="sec-label">Seconds</p>
+       <input type="number" class ="time" id="hour" class="time" value="0" min="0" max="24"> <p class="semi-colon" id="s1">:</p> <input type="number" class="time" id="min" class="time" min="0" max="60" value="0"> <p class="semi-colon" id="s2">:</p> <input type="number"  id="sec" class="time" min="0" max="60" value="0">
+        <button id="start" class="action">Start</button> <button id="reset" class="action">Reset</button>
+   </div>
+</body>
+
+<script src="RealTimer.js"></script>
+</html>
